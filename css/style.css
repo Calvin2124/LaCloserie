@@ -53,7 +53,7 @@ header{
     padding: 10px;
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: #fafafa;
 }
 
 header img{
@@ -169,4 +169,44 @@ main section:nth-child(2) form > input[type=text]:nth-child(2){
 
 main form input{
     padding: 8px 32px;
+}
+
+/* SECTION 3 */
+
+main section:nth-child(3) h2{
+    text-align: center;
+}
+
+#figue1 figure,#figue2 figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+}
+
+#figue1 img, #figue2 img {
+    width: 100%;
+}
+
+#figue1 figcaption, #figue2 figcaption {
+    background-color: #f5f5dc;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#figue1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 70px;
+    gap: 20px;
+}
+
+#figue2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding: 0px 70px;
+    gap: 20px;
 }
