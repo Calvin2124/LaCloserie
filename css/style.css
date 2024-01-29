@@ -281,6 +281,7 @@ body > main > section:nth-child(4) > article{
 
 .fa-star{
     color: #f6bb05;
+    margin: 12px 0px;
 }
 
 .google-img{
@@ -319,18 +320,19 @@ body > main > section:nth-child(5) > article:nth-child(2){
 
 body > main > section:nth-child(5) > article:nth-child(2) > i.fa-solid.fa-chevron-left{
     margin: auto;
-    padding: 20px;
+    padding: 5px;
 }
 
 body > main > section:nth-child(5) > article:nth-child(2) > i.fa-solid.fa-chevron-right{
     margin: auto;
-    padding: 20px;
+    padding: 5px;
 }
 
 .comment{
     background-color: #222222;
-    border-radius: 12px;
+    border-radius: 6px;
     position: relative;
+    padding: 15px;
 }
 
 #comment-g > div:nth-child(1) > p:nth-child(9){
@@ -347,6 +349,46 @@ body > main > section:nth-child(5) > article:nth-child(2) > i.fa-solid.fa-chevro
 
 .google-img{
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: 18px;
+    right: 24px;
+}
+
+.img-note{
+    width: 40px;
+    height: 40px;
+}
+
+.sous-div-google{
+    display: flex;
+    gap: 10px;
+}
+
+section:nth-child(5){
+    color: #fff;
+}
+
+section:nth-child(5) h3{
+    color: #000;
+}
+
+section:nth-child(5) > article:nth-child(1) > div > p{
+    color: #000;
+}
+
+.commentaire{
+    line-height: 25px;
+}
+
+.lire-la-suite{
+    margin-top: 5px;
+}
+
+.fa-chevron-left{
+    color: #000;
+    font-size: 24px;
+}
+
+.fa-chevron-right{
+    color: #000;
+    font-size: 24px;
 }
